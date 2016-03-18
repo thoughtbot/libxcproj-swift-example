@@ -7,8 +7,15 @@ This is a project that demonstrates linking against [libxcproj][] from Swift, us
 To get started:
 
 1. Clone the repo
+
 2. Install the latest Swift development snapshot: https://swift.org/download/
-3. Run `make`
+
+3. Install `libxcproj`:
+
+        brew tap thoughtbot/formulae
+        brew install libxcproj
+
+4. Run `make`
 
 If everything's working correctly, you should see `It worked!` printed to the console.
 
